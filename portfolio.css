@@ -1,0 +1,463 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+/* .sidebarGo {
+    transform: translate(-196px, 10px);
+    position: absolute;
+} */
+
+.sidebar{
+    display: none;
+}
+
+.sidebar.sidebar-active {
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(13, 153, 196);
+    width: 184px;
+    font-family: 'Times New Roman', Times, serif;
+    height:200vh;
+    margin-bottom: -184px;
+    transition: all 0.25s;
+    transition-property: all 450ms ;
+    opacity: 0.6;
+}
+
+.sidebar-hover{
+    opacity: 0.3;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 45px;
+    padding-bottom: 26px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+
+
+
+    .sidebar nav li a{
+        text-decoration: none;
+        color: black;
+
+    }
+
+.sidebar nav{
+    padding: 45px;
+    
+}
+
+.Main{
+    /* background-color: yellow; */
+    width: 150vw;
+}
+
+.container{
+    display: flex;
+    background-image: url(./pexels-matheus-natan-3297593.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  
+
+
+.infocontainer{
+    /* background-color: blue; */
+    height: 80vh;
+    width: 1500px;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+img {
+    width:500px;
+    height:auto;
+    border-radius:100px;
+  
+}
+
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+        margin-bottom: 290px;
+    }
+   
+
+.a-focus-visibel{
+    background-color: azure;
+}
+
+
+
+.hello{
+    font-size: 51px;
+    font-family: ont-family 'Arima', cursive;
+}
+
+    
+    
+.name {
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.about {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.moreabout{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.buttons {
+    
+    margin-top: 11px;
+}
+
+button {
+    padding: 13px;
+    width: 149px;
+    font-size: 18px;
+    border-radius: 19px;
+    border-color: rgb(110, 199, 235);
+    background-color: rgb(218, 38, 47);;
+    font-weight: bold;
+
+}
+    
+
+/* .button:hover{
+    background-color: rgb(218, 38, 47);
+    color: rgb(221, 56, 56);;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } */
+
+
+button {
+    background-color: #03a9f4;
+        box-shadow: 0 5px rgb(154, 218, 230);
+        transform: translateY(4px);
+        color: azure;
+    }
+
+
+h1 {
+    
+    padding-top: 131px;
+}
+
+.contactform {
+    margin-left: 483px;
+    padding-top: 26px;
+}
+.fname {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.fill {
+  
+    padding-bottom: 20px;
+}
+.number{
+  
+    padding-bottom: 20px;
+}
+.mail {
+  
+    padding-bottom: 20px;
+}
+
+.old{
+    padding-bottom: 20px;
+  
+}
+
+label#Name {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label#Address {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label#Email {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+label#Mobile {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label#Name {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type="name" ] {
+    height: 34px;
+    width: 559px;
+    font-size: 22px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 11px;
+}
+
+
+input[type="address"] {
+    height: 34px;
+    width: 559px;
+    font-size: 22px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 11px;
+}
+
+input[type="mobileno"] {
+    height: 34px;
+    width: 559px;
+    font-size: 22px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 11px;
+}
+
+input[type="email"] {
+    height: 34px;
+    width: 559px;
+    font-size: 22px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 11px;
+}
+
+
+input[type="checkbox"] {
+    width: 32px;
+    height: 17px;
+}
+
+.label#Age {
+    font-size: 22px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+button.formbtn {
+    width: 98px;
+    height: 42px;
+    font-size: 15px;
+    font: 300;
+    font-weight: bold;
+    background-color: rgba(221, 62, 22, 0.938);
+}
+/* img#ham{
+    width: 38px;
+    height: 29px;
+    margin-left: -218px;
+}
+img#cross {
+    width: 38px;
+    height: 29px;
+    margin-left: 132px;
+} */
+
+
+i#ham {
+    margin-left: 14px;
+    margin-top: 9px;
+}
+
+/* @media (max-width: 1125px){
+*{
+    background-color: rgb(141, 135, 135);
+}
+
+/* .sidebar {
+    transform: translate(-196px, 10px);
+    position: absolute;
+} */
+
+.box{
+    display: flex;
+    background-image: url(./pexels-matheus-natan-3297593.jpg);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+   
+.Main{
+    display: flex;
+    background-image: url(./pexels-matheus-natan-3297593.jpg);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h2 {
+    margin-left: 30px;
+    padding-top: 6px;
+}
+
+
+h3 {
+    margin-left: 255px;
+}
+
+.dabba{
+    display: flex;
+    background-image: url(./pexels-matheus-natan-3297593.jpg);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hobbs {
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: font-family 'Arima', cursive;;
+    
+
+}
+
+.para {
+    font-size: 28px;
+    margin-top: 230px;
+    font-family: 'Arima', cursive;
+    margin-inline: 80px;
+}
+
+button.hobtn {
+    margin-top: 3px;
+    margin-right: -2px;
+    margin-left: -165px
+}
+
+.second{
+    font-size: 28px;
+    margin-top: 10px;
+    font-family: 'Arima', cursive;
+margin-inline: 80px;
+}
+.third{
+    font-size: 28px;
+    margin-top: 10px;
+    font-family: 'Arima', cursive;
+    margin-inline: 80px;
+
+
+}
+
+marquee {
+    margin-top: 87px;
+    background-color: yellow;
+}
+
+h1.hobbs {
+    display: flex;
+    flex-direction: row;
+}
+
+p.end {
+    text-align: center;                     
+    margin-top: 78px;
+    font-size: 29px;
+    font-weight: bolder;
+    font-family: serif                       
+}
+
+.aboutcontainer{
+    display: flex;
+    background-image: url(./pexels-matheus-natan-3297593.jpg);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+
+}
+
+p {
+    margin-top: 295px;
+    font-size: 20px;
+    margin-inline: 30px;
+    font-family: 'Arima', cursive;
+    font-weight: 600;
+}
+
+
+.intro.container{       
+    background-image: url(./pexels-matheus-natan-3297593.jpg);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    
+
+    .articel {
+        display: flex;
+        justify-content: center;
+        margin-inline: 245px;
+        font-family: 'Arima', cursive;
+        font-weight: 600;
+    }
+
+    h1.lll {
+        position: absolute;
+        padding-inline: 782px;
+        font-size: 52px;
+    }
+   
+    h1 {
+        position: absolute;
+        padding-inline: 738px;
+        font-size: 55px;
+    }
+

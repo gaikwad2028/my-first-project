@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My Portfolio</title>  
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    
+    <script>  
+        function myFunction() {
+            let element = document.getElementById("ham-open").className
+            if (element === 'sidebar') {
+                document.getElementById("ham-open").className += " sidebar-active";    
+            } else {
+                document.getElementById("ham-open").className = "sidebar";
+            }
+
+        }
+    </script>
+    <div class="container">
+        <!-- <img src="./backimg.jpg" class='backimg'/> -->
+        <!-- <a href="https://www.flaticon.com/free-icons/hamburger">icon</a> -->
+
+
+        <div class="sidebar" id="ham-open">
+            <nav>
+                <ul>
+                    <li class="H"><a href="">HOME</a></li>
+                    <li class="M"><a href="/intro.html">MY INTRO</a></li>
+                    <li class="A"><a href="/about.html">ABOUT</a></li>
+                    <li class="O"><a href="/hobbies.html">HOBBIES</a></li>
+                    <li class="C"><a href="/projects.html">PROJECTS</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+        <div class="Main">
+            <div class="hamburger">
+                <i id="ham" class="fa-solid fa-bars" onclick="myFunction()"></i>
+            </div>
+
+
+            <div class="infocontainer">
+                <div class="devinfo">
+                    <div class="hello">Hi, i am Akash</div>
+                    <div class="name">Akash Gaikwad</div>
+                    <div class="about"> Civil engineer,Frontend Developer</div>
+                    <div class="moreabout">I am civil Engineer, I am learning<u> HTML,CSS,JAVASCRIPT,REACT</u></div>
+                    <div class="buttons"></div>
+                    <a href="Download.html"><button>Download Cv</button></a>
+                    <a href="contact.html"><button>Contact Me</button></a>
+                </div>
+                <div class="pic"><img
+                        src="https://www.pngitem.com/pimgs/m/46-468258_happy-man-smiling-with-white-teeth-gentleman-hd.png"
+                        alt="human" width="500px"></div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+              
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
